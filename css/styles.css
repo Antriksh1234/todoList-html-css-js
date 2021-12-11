@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("../images/todolist-bg.jpg");
+    position: relative;
+}
+
+.center_of_page_div {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
+
+.todo_card {
+    border-radius: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    background-color: white;
+}
+
+.check_list_item {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.list_item {
+    list-style-type: none;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#list {
+    padding: 0;
+    text-align: left;
+}
+
+#cancel_add_btn:hover {
+    background-color: rgba(209, 187, 187, 0.589);
+}
+
+#date_text {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.task_text {
+    display: inline;
+    font-size: 2rem;
+    font-family: 'Arimo', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.task_wrapper {
+    display: inline;
+}
+
+#add_item {
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    border: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 2rem;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+#add_item:hover {
+    background-color: rgb(152, 238, 24);
+}
+
+.center_of_page_dialog {
+    opacity: 0;
+    background-color: white;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 20px;
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.far {
+    float: right;
+    margin-top: 8px;
+    font-size: 1.25rem;
+}
+
+#item_name_text {
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+#item_name_text:focus {
+    outline: none;
+}
+
+.add_item_header {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.action_btns {
+    margin-top: 2rem;
+}
+
+.add_cancel_btns {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+    border: none;
+}
+
+#add_item_to_list_btn {
+    background-color: greenyellow;
+    color: black;
+}
+
+#add_item_to_list_btn:hover {
+    background-color: rgb(152, 238, 24);
+}
+
+.confirmation_center_dialog {
+    opacity: 0;
+    background-color: white;
+    padding: 0 1.75rem 1.75rem 1.75rem;
+    pointer-events: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#delete_item {
+    background-color: greenyellow;    
+}
+
+#delete_item:hover {
+    background-color: rgb(152, 238, 24);
+}
+
+#cancel_delete:hover {
+    background-color: rgba(209, 187, 187, 0.589);
+}
+
+.deletion_btns {
+    margin-top: 1.5rem;
+}
+
+#noTodos {
+    text-align: center;
+    list-style-type: none;
+}
+
+#noTodos_text {
+    font-family: 'Work Sans', sans-serif;
+    color: gray;
+    font-size: 1.5rem;
+}
